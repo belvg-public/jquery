@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @package jQuery Library.
+ * @author: A.A.Treitjak
+ * @copyright: 2012 - 2013 BelVG.com
+ */
+-->
+<config>
+    <modules>
+        <Belvg_JQuery>
+            <version>0.0.1</version>
+        </Belvg_JQuery>
+    </modules>
+    <global>
+        <models>
+            <jquery>
+                <class>Belvg_JQuery_Model</class>
+            </jquery>
+        </models>
+        <helpers>
+            <jquery>
+                <class>Belvg_JQuery_Helper</class>
+            </jquery>
+        </helpers>
+        <events>
+            <core_block_abstract_prepare_layout_before>
+                <observers>
+                    <belvg_jquery_prepare_layout_before>
+                        <class>jquery/observer</class>
+                        <method>prepareLayoutBefore</method>
+                    </belvg_jquery_prepare_layout_before>
+                </observers>
+            </core_block_abstract_prepare_layout_before>
+        </events>
+    </global>
+</config>

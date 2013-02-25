@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Belvg_JQuery>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Belvg_JQuery>
+        <depends>
+            <Mage_Core/>
+            <Belvg_All/>
+        </depends>
+     </modules>
+</config>

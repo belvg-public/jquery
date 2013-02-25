@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @package jQuery Library.
+ * @author: A.A.Treitjak
+ * @copyright: 2012 - 2013 BelVG.com
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <jquery translate="title">
+                                        <title>jQuery Labriry</title>
+                                    </jquery>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
